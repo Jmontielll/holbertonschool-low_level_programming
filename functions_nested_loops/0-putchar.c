@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-	char x[] = "Holberton";
-	int y;
+    putchar('_');
+    putchar('p');
+    putchar('u');
+    putchar('t');
+    putchar('c');
+    putchar('h');
+    putchar('a');
+    putchar('r');
+    putchar('\n');
 
-	y = 0;
-
-	while (y <= 8)
-	{
-		_putchar(x[y]);
-		y++;
-	}
-	_putchar('\n');
-	return (0);
+    return 0;
 }
+
